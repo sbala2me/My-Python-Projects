@@ -18,14 +18,14 @@ def stop_loop():
 def update_text():
     global count
     if running and count < max_repetitions:  # Use the user-defined repetitions limit
-        text_area.insert(tk.END, "Fein ")
+        text_area.insert(tk.END, "Amuku Damkuka Amkuku Dumal Attam pota Attam Pota Pakka Pushpa Addadey pushpa enna thotu ey thumbi poda attam pota pakka pushpa adadey")
         text_area.see(tk.END)  # Auto-scroll to the end
         count += 1
         root.after(10, update_text)  # Adjust the delay if needed (in milliseconds)
 
 # Initialize the main window
 root = tk.Tk()
-root.title("Fein")
+root.title("Amuku Dumal Loop")
 
 # Get the screen width and height
 screen_width = root.winfo_screenwidth()
